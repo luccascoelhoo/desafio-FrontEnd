@@ -1,0 +1,79 @@
+Documentação do Projeto: Gerenciamento de Funcionários
+
+Dependências Necessárias:
+
+Para rodar o código da aplicação, é necessário instalar as seguintes dependências:
+
+React:
+
+Biblioteca principal para construção da interface de usuário.
+Comando de instalação:    ***** npm install react react-dom **********
+Formik:
+
+Biblioteca para gerenciamento de formulários e validação de dados.
+Comando de instalação:    ***** npm install formik **********8
+Yup:
+
+Biblioteca para definição e aplicação de esquemas de validação de dados.
+Comando de instalação:    ***** npm install yup *********
+PropTypes:
+
+Biblioteca para verificação de tipos de dados das propriedades.
+Comando de instalação:    ***** npm install prop-types ********
+Vite:
+
+Ferramenta de desenvolvimento para construção de aplicações web.
+Comando de instalação:    ***** npm install vite ********
+Funcionalidade do Código
+
+Este projeto é uma aplicação desenvolvida com React, que permite gerenciar funcionários. A aplicação consiste em duas funcionalidades principais: listar funcionários existentes e adicionar novos funcionários à lista.
+
+Componentes Principais
+
+App:
+
+Descrição: Componente principal da aplicação.
+Funcionalidades:
+Inicializa a lista de funcionários com um estado inicial.
+Adiciona novos funcionários à lista.
+EmployeeList:
+
+Descrição: Componente responsável por exibir a lista de funcionários.
+Funcionalidades:
+Recebe a lista de funcionários como propriedades e os exibe em uma lista formatada.
+EmployeeForm:
+
+Descrição: Formulário para adicionar novos funcionários.
+Funcionalidades:
+Utiliza a biblioteca Formik para gerenciar o estado do formulário e a validação de dados.
+Utiliza a biblioteca Yup para definir e aplicar as regras de validação dos dados.
+Envia os dados do formulário ao componente App para adicionar à lista de funcionários.
+Bibliotecas Usadas
+
+React:
+
+Descrição: Biblioteca JavaScript para construir interfaces de usuário.
+Uso: Base da aplicação para criação de componentes reutilizáveis e gerenciamento de estado.
+Formik:
+
+Descrição: Biblioteca para construção de formulários em React.
+Uso: Simplifica o gerenciamento de estados de formulários e a validação de dados, facilitando a criação de formulários robustos.
+Yup:
+
+Descrição: Biblioteca de validação para JavaScript.
+Uso: Utilizada junto com Formik para definir esquemas de validação de dados, garantindo que os dados do formulário estejam corretos antes do envio.
+PropTypes:
+
+Descrição: Biblioteca para verificação de tipos de dados das propriedades em React.
+Uso: Garante que os componentes recebam os dados no formato esperado, ajudando a evitar erros e bugs.
+Tecnologias
+
+JavaScript: Linguagem de programação utilizada no desenvolvimento do projeto.
+React: Biblioteca utilizada para construção de interfaces de usuário dinâmicas e interativas.
+Vite: Ferramenta de desenvolvimento para construção de aplicações web modernas, proporcionando uma experiência de desenvolvedor otimizada e rápida.
+Justificativa das Escolhas
+
+React: Foi escolhido pela sua eficiência em criar interfaces dinâmicas e componentes reutilizáveis. A vasta comunidade e suporte também são vantagens significativas.
+Formik e Yup: Estas bibliotecas foram escolhidas para simplificar a criação e validação de formulários, reduzindo o código boilerplate e facilitando a manutenção.
+PropTypes: Usado para garantir que os componentes recebam os dados corretamente tipados, ajudando a evitar bugs.
+Vite: Escolhido por ser uma ferramenta moderna que oferece uma configuração mínima e um ambiente de desenvolvimento rápido, adequado para aplicações React.
